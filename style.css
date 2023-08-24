@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segeo UI", Roboto, Helvetica, Arial, sans-serif ;
+}
+
+body{
+    background-color: #fafafa;  
+    height:100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segeo UI", Roboto, Helvetica, Arial, sans-serif ;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.left {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.leftBlock{
+    background-image: url(instabg.png);
+    width: 430px;
+    height: 700px; 
+    background-repeat: no-repeat;
+}
+
+.left img{
+    position: relative;
+    top: 28px;
+    left: 158px;
+    
+}
+
+.right{
+    margin-top: -92px;;
+}
+
+
+.rightBlock{
+    width:270px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid rgb(219,219,219);
+    font-family: -apple-system;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:20px;
+    padding-bottom:15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.rightBlock img{
+    width: 172px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+     
+    
+}
+
+.rightBlock input{
+    padding:8px;
+    border: 1px solid rgb(219,219,219);
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(250,250,250);
+    width:250px;
+}
+
+.button{
+    background-color: #4db5f9;
+    color: white;
+    margin-top: 10px;
+    border-radius:5px;
+    padding:8px;
+    text-align: center;
+    width:252px;
+    
+}
+
+.orBlock{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+    width: 268px;
+}
+
+.before{
+    background-color: rgb(219,219,219);
+    height: 1px;
+    width: 105px;
+}
+
+.or{
+    font-weight:600;
+    color:gray;
+    padding: 0px 12px 0px 12px;
+    font-size:13px;
+}
+
+.after{
+    background-color: rgb(219,219,219);
+    height: 1px;
+    width: 105px;
+}
+
+.login{
+    text-align:center;
+    margin-top: 20px;
+    color: rgb(56,81,133);
+    font-weight: 600;
+    font-size: 14px;
+    width: 268px;
+    padding-top:14px;
+
+}
+
+.fa-square-facebook{
+    color: rgb(56,81,133);
+}
+
+.pass{
+    color:rgb(0,55,107);
+    padding-top: 14px;
+    text-align: center;
+    width:268px;
+    font-size:14px;
+}
+
+.acc{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(219,219,219);
+    text-align: center;
+    padding:20px;
+    margin:20px;
+    font-size:14px;
+}
+
+.sign{
+    color: rgba(0,149,246,1);
+    font-weight:600;
+    font-size:14px;
+}
+
+.getApp{
+    text-align:center;
+    width:200px;
+    padding-left:100px;
+    font-size:14px;
+    
+}
+
+.logoGetApp{
+    text-align:center;
+    margin-top:20px;
+    width:268px;
+    padding-left: 70px;
+}
+
+.logoGetApp img{
+    width:130px;
+}
+
+.rightBlock input:focus, .rightBlock input:active{
+    border: 1px solid rgba(38,38,38,0.4);
+}
